@@ -1,0 +1,15 @@
+{
+  "name": "cliphub-privacy-mode",
+  "version": "1.0.0",
+  "description": "The Privacy mode code of ClipHub, published so anyone can check what it does.",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "test": "electron test/network-guard.test.mjs",
+    "checksums": "node scripts/checksums.mjs"
+  },
+  "devDependencies": {
+    "electron": "45.2.3"
+  }
+}
